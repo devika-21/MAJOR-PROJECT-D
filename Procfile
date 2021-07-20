@@ -1,1 +1,1 @@
-web: python devapp.py
+worker: python devapp.py
