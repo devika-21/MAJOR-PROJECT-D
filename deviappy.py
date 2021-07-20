@@ -1,7 +1,7 @@
 import os
 api = os.getenv('ADAFRUIT_IO_KEY')
 from Adafruit_IO import Client
-aio = Client('ElvinE' , api)
+aio = Client('Devika_21' , api)
 from telegram.ext import Updater, MessageHandler,Filters
 
 def lighton(bot,update):
@@ -55,7 +55,7 @@ def main(bot,update):
      bot.message.reply_text('INVALID INPUT!!!')   
 
 
-BOT_TOKEN = '1823812773:AAF5an5yteyVNHeA9ogTUNHMdsCwXRAD4Xs'
+BOT_TOKEN = '1942691064:AAFcnM2xOTmsshbZtEzwcSM_uifLFsxJNuo'
 u = Updater(BOT_TOKEN,use_context=True)
 dp = u.dispatcher
 dp.add_handler(MessageHandler(Filters.text,main))
